@@ -142,11 +142,11 @@ class HomePage extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 10),
-            Padding(
-              padding: const EdgeInsets.only(left: 10.0, right: 10),
+            const Padding(
+              padding: EdgeInsets.only(left: 10.0, right: 10),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: const [
+                children: [
                   Text(
                     'Hot sales',
                     style: TextStyle(fontSize: 20, color: Colors.black),
@@ -238,11 +238,11 @@ class HomePage extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 10),
-            Padding(
-              padding: const EdgeInsets.only(left: 10.0, right: 10),
+            const Padding(
+              padding: EdgeInsets.only(left: 10.0, right: 10),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: const [
+                children: [
                   Text(
                     'Recently Viewed',
                     style: TextStyle(fontSize: 20, color: Colors.black),
